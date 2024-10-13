@@ -1,0 +1,29 @@
+.logoBox {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo {
+  position: relative;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+
+  width: 40px;
+  height: 33px;
+
+  svg {
+    position: absolute;
+
+    &:first-of-type {
+      top: 0;
+    }
+  }
+}
+
+.logoTitle {
+  font-family: var(--font-family-logo), sans-serif;
+  font-size: 4rem;
+  text-transform: capitalize;
+}

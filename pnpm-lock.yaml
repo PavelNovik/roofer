@@ -8,12 +8,45 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/lora':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource-variable/montserrat':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource-variable/open-sans':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource-variable/raleway':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource-variable/roboto-condensed':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource/bebas-neue':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource/poppins':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource/roboto':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource/ropa-sans':
+        specifier: ^5.1.0
+        version: 5.1.0
+      clsx:
+        specifier: ^2.1.1
+        version: 2.1.1
       react:
         specifier: ^18.3.1
         version: 18.3.1
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
+      react-hook-form:
+        specifier: ^7.53.0
+        version: 7.53.0(react@18.3.1)
     devDependencies:
       '@eslint/js':
         specifier: ^9.9.0
@@ -278,6 +311,33 @@ packages:
   '@eslint/plugin-kit@0.2.0':
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource-variable/lora@5.1.0':
+    resolution: {integrity: sha512-dYb/q3hMuabXDy3yHTtjIn+nzYIJ+jguULrPelHPBfGFlvwTI0HAETP+tZm/0aRISD7q2nWTK3tQA8GFZRDTmg==}
+
+  '@fontsource-variable/montserrat@5.1.0':
+    resolution: {integrity: sha512-1bloVBKJx/ABBmF+/VzhJZDLzaDNUxw/8Pt5AOgfKL6N3t1fAhwtJBb1gdqU7ABckSNLsKf572A5Inv9YneRug==}
+
+  '@fontsource-variable/open-sans@5.1.0':
+    resolution: {integrity: sha512-NuJdoORzM6qp+bf5j7dyo6MO8rBEEiSw8wiZv9t7sga0RIODgLLbBAMaZMaZiLwNbXcGPxhFcHcuDaQr1xj9kA==}
+
+  '@fontsource-variable/raleway@5.1.0':
+    resolution: {integrity: sha512-TtV3e3ZLfGu6XmqRDvZ0Q4cXlRs4Rwbxsc+Te3yMtJKRQgNS/OBRtLjztb3cCrZWTPvH7bKKWjtBlC8yuZWWVw==}
+
+  '@fontsource-variable/roboto-condensed@5.1.0':
+    resolution: {integrity: sha512-zNEi0EwZY3pQemc6CHCGr/UnP1nBGurPx2SnYy/lyt/8JWdxvz2dOsTQNLdnKQooO45rSCHf7ye3pHzqsUPrUA==}
+
+  '@fontsource/bebas-neue@5.1.0':
+    resolution: {integrity: sha512-Z/JzzEEun97ZY7zzD5GhjZIE9bemHaLenzo5RlFtPVb8gNB9/DM7S+c7El5OcBcPc0crzeyGTVxkUboQQLM4vQ==}
+
+  '@fontsource/poppins@5.1.0':
+    resolution: {integrity: sha512-tpLXlnNi2fwQjiipvuj4uNFHCdoLA8izRsKdoexZuEzjx0r/g1aKLf4ta6lFgF7L+/+AFdmaXFlUwwvmDzYH+g==}
+
+  '@fontsource/roboto@5.1.0':
+    resolution: {integrity: sha512-cFRRC1s6RqPygeZ8Uw/acwVHqih8Czjt6Q0MwoUoDe9U3m4dH1HmNDRBZyqlMSFwgNAUKgFImncKdmDHyKpwdg==}
+
+  '@fontsource/ropa-sans@5.1.0':
+    resolution: {integrity: sha512-R+YFFZvF1AMeW7UdHyYxy3hSfpZOwgymx83/1B+sUg3wBFU9YUEOw0Npukzs8FBfGVSuMNh6FQyUkhSoSCICKw==}
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -714,6 +774,10 @@ packages:
   chokidar@4.0.1:
     resolution: {integrity: sha512-n8enUVCED/KVRQlab1hr3MVpcVMvxtZjmEa956u+4YijlmQED223XMSYj2tLuKvr4jcCTzNNMpQDUer72MMmzA==}
     engines: {node: '>= 14.16.0'}
+
+  clsx@2.1.1:
+    resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
+    engines: {node: '>=6'}
 
   color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
@@ -1566,6 +1630,12 @@ packages:
     peerDependencies:
       react: ^18.3.1
 
+  react-hook-form@7.53.0:
+    resolution: {integrity: sha512-M1n3HhqCww6S2hxLxciEXy2oISPnAzxY7gvwVPrtlczTM/1dDadXgUxDpHMrMTblDOcm/AXtXxHwZ3jpg1mqKQ==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18 || ^19
+
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -2076,6 +2146,24 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
+  '@fontsource-variable/lora@5.1.0': {}
+
+  '@fontsource-variable/montserrat@5.1.0': {}
+
+  '@fontsource-variable/open-sans@5.1.0': {}
+
+  '@fontsource-variable/raleway@5.1.0': {}
+
+  '@fontsource-variable/roboto-condensed@5.1.0': {}
+
+  '@fontsource/bebas-neue@5.1.0': {}
+
+  '@fontsource/poppins@5.1.0': {}
+
+  '@fontsource/roboto@5.1.0': {}
+
+  '@fontsource/ropa-sans@5.1.0': {}
+
   '@humanwhocodes/module-importer@1.0.1': {}
 
   '@humanwhocodes/retry@0.3.0': {}
@@ -2517,6 +2605,8 @@ snapshots:
   chokidar@4.0.1:
     dependencies:
       readdirp: 4.0.1
+
+  clsx@2.1.1: {}
 
   color-convert@1.9.3:
     dependencies:
@@ -3442,6 +3532,10 @@ snapshots:
       loose-envify: 1.4.0
       react: 18.3.1
       scheduler: 0.23.2
+
+  react-hook-form@7.53.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   react-is@16.13.1: {}
 
