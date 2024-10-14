@@ -2,19 +2,31 @@ import { Ref, SVGProps, forwardRef } from 'react'
 const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
   <svg
     fill={'none'}
-    width="64.500000"
-    height="69.500000"
-    viewBox="0 0 64.5 69.5"
+    width="65.500000"
+    height="84.000000"
+    viewBox="0 0 65.5 84"
     xmlns={'http://www.w3.org/2000/svg'}
     {...props}
     ref={ref}
   >
     <desc>Created with Pixso.</desc>
-    <defs />
+    <defs>
+      <linearGradient
+        x1="0.000000"
+        y1="38.347862"
+        x2="65.500000"
+        y2="38.347862"
+        id="paint_linear_1_326_0"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#C62813" />
+        <stop offset="1.000000" stop-color="#D06051" />
+      </linearGradient>
+    </defs>
     <path
-      id="Vector 6"
-      d="M32 0L0 69.5L8.5 69.5L32 17.5L41.21 35L45 27L32 0ZM48.5 34L32 69.5L39.5 69.5L48.5 50L57 69.5L64.5 69.5L48.5 34Z"
-      fill="#C5C5C5"
+      id="Vector 7"
+      d="M24.5 0L0 25.5L0 84L65.5 84L65.5 35.5L54.5 25.5L54.5 44L47.5 44L47.5 20.5L33.5 7L33.5 44L24.5 44L24.5 0Z"
+      fill="url(#paint_linear_1_326_0)"
       fill-opacity="1.000000"
       fill-rule="evenodd"
     />
@@ -22,4 +34,4 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) =
 )
 const ForwardRef = forwardRef(SvgComponent)
 
-export const Partner1 = ForwardRef
+export const Partner2 = ForwardRef

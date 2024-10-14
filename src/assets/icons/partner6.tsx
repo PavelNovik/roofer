@@ -2,9 +2,9 @@ import { Ref, SVGProps, forwardRef } from 'react'
 const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
   <svg
     fill={'none'}
-    width="132.000000"
-    height="46.000000"
-    viewBox="0 0 132 46"
+    width="59.000000"
+    height="63.000000"
+    viewBox="0 0 59 63"
     xmlns={'http://www.w3.org/2000/svg'}
     {...props}
     ref={ref}
@@ -12,8 +12,8 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) =
     <desc>Created with Pixso.</desc>
     <defs />
     <path
-      id="Vector 11"
-      d="M16 46L50.5 46L66 30.5L81.5 46L106 21.5L120 35.5L132 35.5L96.5 0L66 30.5L35.5 0L0 35.5L12 35.5L26 21.5L33 28.5L16 46Z"
+      id="Vector 13"
+      d="M0 25.5L0 0L11.5 13L11.5 37.47L0 25.5ZM21 47.37L11.5 37.47L11.5 63L21 63L21 47.37ZM21 47.37L21 25.5L36 43.5L59 16.5L59 35L36 63L21 47.37Z"
       fill="#C5C5C5"
       fill-opacity="1.000000"
       fill-rule="evenodd"
@@ -22,4 +22,4 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) =
 )
 const ForwardRef = forwardRef(SvgComponent)
 
-export const Partner5 = ForwardRef
+export const Partner6 = ForwardRef
