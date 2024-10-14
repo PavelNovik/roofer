@@ -15,8 +15,8 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) =
       id="Vector"
       d="M56.66 30L66.66 30L33.33 0L0 30L10 30L33.33 8.96L56.66 30ZM16.66 6.03L16.66 0L6.66 0L6.66 15L16.66 6.03Z"
       fill="#D06051"
-      fill-opacity="1.000000"
-      fill-rule="nonzero"
+      fillOpacity="1.000000"
+      fillRule="nonzero"
     />
   </svg>
 )

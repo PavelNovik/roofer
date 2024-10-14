@@ -16,8 +16,8 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) =
       id="Rectangle 7"
       d="M20 0L40 19L20 9.19L0 19L20 0Z"
       fill="#9A9A9A"
-      fill-opacity="1.000000"
-      fill-rule="nonzero"
+      fillOpacity="1.000000"
+      fillRule="nonzero"
     />
   </svg>
 )

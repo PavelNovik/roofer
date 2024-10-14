@@ -27,8 +27,8 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) =
       id="Vector 7"
       d="M24.5 0L0 25.5L0 84L65.5 84L65.5 35.5L54.5 25.5L54.5 44L47.5 44L47.5 20.5L33.5 7L33.5 44L24.5 44L24.5 0Z"
       fill="url(#paint_linear_1_326_0)"
-      fill-opacity="1.000000"
-      fill-rule="evenodd"
+      fillOpacity="1.000000"
+      fillRule="evenodd"
     />
   </svg>
 )

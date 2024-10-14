@@ -8,7 +8,7 @@ export const Header = () => {
       <Logo />
       <div className={s.menuList}>
         {menuList.map(i => (
-          <Typography>{i}</Typography>
+          <Typography key={i}>{i}</Typography>
         ))}
       </div>
       <br />
