@@ -1,4 +1,12 @@
 .menuList {
   display: flex;
-  gap: 0.5rem;
+  gap: 4rem;
+  text-transform: uppercase;
+  list-style: none;
+
+  & > li {
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
