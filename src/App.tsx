@@ -6,7 +6,7 @@ export function App() {
   return (
     <>
       <Header />
-      <Button>Push me</Button>
+      <Button>Get in touch</Button>
       <div>Hello mother fucker. Here will be the project about roofers!</div>
       <Footer />
     </>
