@@ -11,17 +11,19 @@
   box-sizing: border-box;
   padding: 12px 30px;
 
-  font-family: inherit;
+  font-family: var(--font-family-menu);
+  font-size: 19px;
+  font-weight: 700;
 
   // font-size: var(--font-size-m);
   // font-weight: var(--font-weight-bold);
   // line-height: var(--line-height-m);
   color: inherit;
+  text-transform: uppercase;
 
   border: none;
-  border-radius: 4px;
 
-  transition: all 0.3s ease;
+  // transition: all 0.3s ease;
 
   &:focus-visible {
     // outline: 2px solid var(--color-info-500);
