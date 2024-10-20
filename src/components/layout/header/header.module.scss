@@ -1,12 +1,18 @@
-.menuList {
-  display: flex;
-  gap: 4rem;
-  text-transform: uppercase;
-  list-style: none;
+.header {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
-  & > li {
-    &:hover {
-      cursor: pointer;
-    }
-  }
+.logo {
+  margin-right: 250px;
+}
+
+.menu {
+  margin-right: 70px;
+}
+
+.phone {
+  margin-right: 30px;
 }
