@@ -1,6 +1,7 @@
 .logoBox {
   display: flex;
   gap: 1rem;
+  align-items: baseline;
 }
 
 .logo {
@@ -24,6 +25,6 @@
 
 .logoTitle {
   font-family: var(--font-family-logo), sans-serif;
-  font-size: 4rem;
+  font-size: 40px;
   text-transform: capitalize;
 }
