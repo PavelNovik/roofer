@@ -1,9 +1,70 @@
 .about {
+  position: relative;
+
   display: flex;
+  align-items: center;
 
   width: 100%;
   height: 956px;
 
-  background-color: rgb(171 30 11 / 46%);
-  background-image: url('../../../assets/img/Rectangle 57.jpeg');
+  background: center url('../../../assets/img/Rectangle 57.jpeg');
+
+  &::before {
+    content: '';
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(171 30 11 / 46%);
+  }
+}
+
+.content {
+  z-index: 3;
+  width: 700px;
+  height: 400px;
+}
+
+.sectionTitle {
+  font-family: var(--font-family-menu), sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-main-white);
+  text-transform: uppercase;
+}
+
+.mainTitle {
+  font-family: var(--font-family-menu), sans-serif;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-main-white);
+  text-transform: uppercase;
+}
+
+.aboutParagraph {
+  font-family: var(--font-family-primary), sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-main-white);
+}
+
+.aboutList {
+  font-family: var(--font-family-primary), sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-main-white);
+  text-transform: capitalize;
+  list-style: none;
+
+  li {
+    display: flex;
+  }
+
+  svg {
+    margin-right: 6px;
+  }
 }
