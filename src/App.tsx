@@ -1,14 +1,12 @@
 import { Header } from '@/components/layout/header/header'
-import { Footer } from '@/components/layout/footer/footer'
-import { Button } from '@/components/ui/button/button'
+import { Container } from '@/components/ui/container/container'
+import { About } from '@/components/layout/about/about'
 
 export function App() {
   return (
-    <>
+    <Container>
       <Header />
-      <Button>Get in touch</Button>
-      <div>Hello mother fucker. Here will be the project about roofers!</div>
-      <Footer />
-    </>
+      <About />
+    </Container>
   )
 }
