@@ -3,6 +3,7 @@ import { ControlledInput } from '@/components/ui/controlled/controlledInput'
 import { Button } from '@/components/ui/button/button'
 import { useForm } from 'react-hook-form'
 import s from './form.module.scss'
+import { Wrapper } from '@/components/ui/wrapper/wrapper'
 
 type FormDataT = {
   firstName: string
@@ -26,40 +27,49 @@ export const Form = () => {
   }
   return (
     <form className={s.form} onSubmit={handleSubmit(onSubmit)}>
-      <Typography className={s.formTitle}>Get started</Typography>
-      <ControlledInput
-        control={control}
-        errorMessage={errors.firstName?.message}
-        label={'First Name'}
-        name={'firstName'}
-      />
-      <ControlledInput
-        control={control}
-        errorMessage={errors.lastName?.message}
-        label={'Last Name'}
-        name={'lastName'}
-      />
-      <ControlledInput
-        control={control}
-        errorMessage={errors.email?.message}
-        label={'Email'}
-        name={'email'}
-        type={'email'}
-      />
-      <ControlledInput
-        control={control}
-        errorMessage={errors.phoneNumber?.message}
-        label={'Phone number'}
-        name={'phoneNumber'}
-      />
-      <ControlledInput
-        control={control}
-        errorMessage={errors.message?.message}
-        label={'Message'}
-        name={'message'}
-      />
+      <Wrapper className={s.wrapper}>
+        <Typography className={s.formTitle}>Get started</Typography>
+        <ControlledInput
+          className={s.input}
+          control={control}
+          errorMessage={errors.firstName?.message}
+          label={'First Name'}
+          name={'firstName'}
+        />
+        <ControlledInput
+          className={s.input}
+          control={control}
+          errorMessage={errors.lastName?.message}
+          label={'Last Name'}
+          name={'lastName'}
+        />
+        <ControlledInput
+          className={s.input}
+          control={control}
+          errorMessage={errors.email?.message}
+          label={'Email'}
+          name={'email'}
+          type={'email'}
+        />
+        <ControlledInput
+          className={s.input}
+          control={control}
+          errorMessage={errors.phoneNumber?.message}
+          label={'Phone number'}
+          name={'phoneNumber'}
+        />
+        <ControlledInput
+          className={s.input}
+          control={control}
+          errorMessage={errors.message?.message}
+          label={'Message'}
+          name={'message'}
+        />
 
-      <Button type={'submit'}>Let’s get started</Button>
+        <Button className={s.button} type={'submit'}>
+          Let’s get started
+        </Button>
+      </Wrapper>
     </form>
   )
 }
