@@ -8,5 +8,5 @@ export type ContainerT = {
 }
 export const Container = (props: ContainerT) => {
   const { children, className } = props
-  return <div className={clsx(className, s.container)}>{children}</div>
+  return <div className={clsx(s.container, className)}>{children}</div>
 }
