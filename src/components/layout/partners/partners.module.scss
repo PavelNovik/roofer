@@ -2,8 +2,8 @@
   display: flex;
   height: 403px;
 
-  svg path {
-    fill: url("#gradient");
+  .cardWrapper:hover path {
+    fill: url('#gradient');
   }
 }
 
