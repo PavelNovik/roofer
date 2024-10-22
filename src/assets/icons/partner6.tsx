@@ -1,5 +1,8 @@
 import { Ref, SVGProps, forwardRef } from 'react'
-const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+const SvgComponent = (
+  props: SVGProps<SVGSVGElement> & { className?: string },
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     fill={'none'}
     width="59.000000"
@@ -8,6 +11,7 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) =
     xmlns={'http://www.w3.org/2000/svg'}
     {...props}
     ref={ref}
+    className={props.className}
   >
     <desc>Created with Pixso.</desc>
     <defs />
