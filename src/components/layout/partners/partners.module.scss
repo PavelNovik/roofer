@@ -1,10 +1,65 @@
+.logo1 {
+  font-family: var(--font-family-logo1), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: rgb(197 197 197);
+  text-transform: uppercase;
+}
+
+.logo2 {
+  font-family: var(--font-family-logo2), sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  color: rgb(197 197 197);
+  text-transform: uppercase;
+}
+
+.logo3 {
+  font-family: var(--font-family-logo3), sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 29px;
+  color: rgb(197 197 197);
+  text-transform: uppercase;
+}
+
+.logo4 {
+  font-family: var(--font-family-logo4), sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(197 197 197);
+  text-transform: uppercase;
+}
+
+.logo5 {
+  font-family: var(--font-family-logo5), sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgb(197 197 197);
+  text-transform: uppercase;
+}
+
+.logo6 {
+  font-family: var(--font-family-logo6), sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgb(197 197 197);
+  text-transform: uppercase;
+}
+
 .partners {
   display: flex;
+  width: 100%;
   height: 403px;
 
-  .cardWrapper:hover path {
-    fill: url('#gradient');
-  }
+  // .cardWrapper:hover path {
+  //  fill: url('#gradient');
+  // }
 }
 
 .title {
@@ -13,4 +68,27 @@
   font-weight: 500;
   font-style: italic;
   text-transform: capitalize;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    .logo {
+      color: rgb(198 40 19);
+    }
+
+    path {
+      fill: url('#gradient');
+    }
+  }
+}
+
+.wrapper {
+  justify-content: space-between;
+}
+
+.mainWrapper {
+  width: 1000px;
 }
