@@ -1,0 +1,26 @@
+.service {
+  display: flex;
+  font-family: var(--font-family-menu), sans-serif;
+  color: rgb(49 49 49);
+}
+
+.serviceWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1420px;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.headerTitle {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 61px;
+  text-transform: uppercase;
+}
