@@ -8,7 +8,7 @@ type PhoneT = {
 
 export const Phone = ({ className }: PhoneT) => {
   return (
-    <div className={clsx(className, s.phone)}>
+    <div className={clsx(s.phone, className)}>
       <Phone1 />
       <Typography>(+487) 384 9452</Typography>
     </div>
