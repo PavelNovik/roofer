@@ -1,17 +1,35 @@
 .header {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
+
+  // justify-content: space-between;
+
+  width: 100%;
 
   // width: 1400px;
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-.logo {
-  margin-right: 250px;
+.headerContext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1420px;
 }
 
+.headerWrapper {
+  align-items: center;
+  justify-content: center;
+}
+
+// .logo {
+//  margin-right: 250px;
+// }
+
 .menu {
+  gap: 40px;
   margin-right: 70px;
 }
 
