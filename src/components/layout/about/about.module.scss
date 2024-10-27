@@ -23,13 +23,22 @@
   }
 }
 
+.aboutWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1420px;
+}
+
 .content {
   z-index: 3;
-  width: 700px;
+  width: 650px;
   height: 400px;
 }
 
 .sectionTitle {
+  margin-bottom: 10px;
+
   font-family: var(--font-family-menu), sans-serif;
   font-size: 19px;
   font-weight: 400;
@@ -39,6 +48,8 @@
 }
 
 .mainTitle {
+  margin-bottom: 18px;
+
   font-family: var(--font-family-menu), sans-serif;
   font-size: 68px;
   font-weight: 700;
@@ -55,6 +66,8 @@
 }
 
 .aboutList {
+  margin-top: 18px;
+
   font-family: var(--font-family-primary), sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -64,6 +77,7 @@
 
   li {
     display: flex;
+    margin-bottom: 13px;
   }
 
   svg {
