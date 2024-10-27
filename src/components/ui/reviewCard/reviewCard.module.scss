@@ -1,0 +1,21 @@
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  width: 460px;
+  height: 286px;
+  padding: 40px;
+
+  background: rgb(255 255 255 / 90%);
+}
+
+.context {
+  font-family: var(--font-family-primary), sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 150%;
+  color: rgb(49 49 49);
+}
