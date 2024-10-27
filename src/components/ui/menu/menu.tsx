@@ -10,7 +10,7 @@ type MenuT = {
 export const Menu = (props: MenuT) => {
   const { menuList, className } = props
   return (
-    <ul className={clsx(className, s.menuList)}>
+    <ul className={clsx(s.menuList, className)}>
       {menuList.map(i => (
         <li key={i}>
           <Typography>{i}</Typography>
